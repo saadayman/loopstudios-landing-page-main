@@ -1,0 +1,71 @@
+@media (max-width: 992px) {
+  .desktop-version {
+    display: none !important;
+  }
+  .header {
+    background: url("/loopstudios-landing-page-main/images/mobile/image-hero.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .offcanvas {
+    background: #212529 !important;
+  }
+  .offcanvas a {
+    font-size: 1.5rem !important;
+    text-transform: uppercase;
+  }
+  .d1 {
+    display: none !important;
+  }
+  .hero-text {
+    color: white;
+    border: 4px solid white;
+    margin-top: 200px;
+    word-break: break;
+    max-width: auto;
+    text-transform: uppercase;
+    padding: 1rem;
+    width: 100%;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    background: url("/loopstudios-landing-page-main/images/desktop/image-hero.jpg") no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+  }
+  .header .hero-text {
+    color: white;
+    border: 4px solid white;
+    font-size: 4rem;
+    word-break: break;
+    max-width: auto;
+    width: 50%;
+    text-transform: uppercase;
+    padding: 1rem;
+  }
+  #inter__active .text-col {
+    margin: 8rem 0 0 -8rem !important;
+    text-align: start !important;
+  }
+  .mobile-version {
+    display: none;
+  }
+  .card-img-overlay h5 {
+    font-size: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+/*.offcanvas{
+        background:#212529 !important;
+    }*/
+/*# sourceMappingURL=style.css.map */
